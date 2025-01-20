@@ -1,28 +1,80 @@
 {
-  "tareas": [
-    {
-      "id": "945c",
-      "nombre": "Xiaomi verde",
-      "precio": "590",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0HyZLFDIAnLfDOjgB0OrkXt3GrvC7QcELbQ&s"
-    },
-    {
-      "id": "08b3",
-      "nombre": "pc nuevo",
-      "precio": "890",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs0GzxrU-y5LqrUZkUIcsrHyin0OoHlvJKew&s"
-    },
-    {
-      "id": "7392",
-      "nombre": "Portatil",
-      "precio": "900",
-      "imagen": "https://s.libertaddigital.com/2023/05/23/portatil-para-teletrabajar-asus-vivobook-s14-oled-k3402za-km079w.jpg"
-    },
-    {
-      "id": "3755",
-      "nombre": "Xiaomi",
-      "precio": "450",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQixZqczJLzxWtI-BYuflCPSDgKq2bnBs2LRQ&s"
-    }
-  ]
-}
+    "categorias": [
+      {
+        "nombre": "Frontend",
+        "items": [
+          {
+            "id": 1,
+            "titulo": "Introducción a React",
+            "imagen": "https://example.com/images/react.jpg",
+            "urlVideo": "https://example.com/videos/intro-react.mp4",
+            "descripcion": "Aprende los fundamentos de React, una de las bibliotecas más populares para el desarrollo de interfaces de usuario."
+          },
+          {
+            "id": 2,
+            "titulo": "CSS Avanzado",
+            "imagen": "https://example.com/images/css.jpg",
+            "urlVideo": "https://example.com/videos/css-avanzado.mp4",
+            "descripcion": "Domina técnicas avanzadas de CSS como animaciones, flexbox y grid."
+          }
+        ]
+      },
+      {
+        "nombre": "Backend",
+        "items": [
+          {
+            "id": 1,
+            "titulo": "Node.js para Principiantes",
+            "imagen": "https://example.com/images/nodejs.jpg",
+            "urlVideo": "https://example.com/videos/nodejs-basico.mp4",
+            "descripcion": "Un recorrido por las bases de Node.js y cómo construir servidores eficientes."
+          },
+          {
+            "id": 2,
+            "titulo": "Bases de Datos con MongoDB",
+            "imagen": "https://example.com/images/mongodb.jpg",
+            "urlVideo": "https://example.com/videos/mongodb.mp4",
+            "descripcion": "Aprende a trabajar con bases de datos NoSQL usando MongoDB."
+          }
+        ]
+      },
+      {
+        "nombre": "Innovación y Gestión",
+        "items": [
+          {
+            "id": 1,
+            "titulo": "Metodologías Ágiles",
+            "imagen": "https://example.com/images/agile.jpg",
+            "urlVideo": "https://example.com/videos/agile.mp4",
+            "descripcion": "Descubre cómo implementar Scrum y otras metodologías ágiles en tu equipo."
+          },
+          {
+            "id": 2,
+            "titulo": "Design Thinking",
+            "imagen": "https://example.com/images/design-thinking.jpg",
+            "urlVideo": "https://example.com/videos/design-thinking.mp4",
+            "descripcion": "Explora cómo resolver problemas creativamente con Design Thinking."
+          }
+        ]
+      },
+      {
+        "nombre": "Diseño",
+        "items": [
+          {
+            "id": 1,
+            "titulo": "Introducción a Figma",
+            "imagen": "https://example.com/images/figma.jpg",
+            "urlVideo": "https://example.com/videos/figma.mp4",
+            "descripcion": "Aprende a usar Figma para diseñar interfaces modernas y colaborativas."
+          },
+          {
+            "id": 2,
+            "titulo": "Teoría del Color",
+            "imagen": "https://example.com/images/teoria-color.jpg",
+            "urlVideo": "https://example.com/videos/teoria-color.mp4",
+            "descripcion": "Comprende cómo utilizar el color efectivamente en tus diseños."
+          }
+        ]
+      }
+    ]
+  }
